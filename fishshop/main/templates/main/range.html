@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ассортимент</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4"><ya-tr-span data-index="2-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Simple header" data-translation="Рыба №1" data-ch="0" data-type="trSpan">Рыбный №1 </ya-tr-span></span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link active" aria-current="page"><ya-tr-span data-index="3-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Home" data-translation="Главная" data-ch="0" data-type="trSpan">Главная</ya-tr-span></a></li>
+        <li class="nav-item"><a href="{% url 'range'%}" class="nav-link"><ya-tr-span data-index="5-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Pricing" data-translation="Ассортимент" data-ch="0" data-type="trSpan">Ассортимент</ya-tr-span></a></li>
+        <li class="nav-item"><a href="{% url 'about' %}" class="nav-link"><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="About" data-translation="О нас" data-ch="0" data-type="trSpan">Информация</ya-tr-span></a></li>
+        <li class="nav-item"><a href="{% url 'delivery'%}" class="nav-link"><ya-tr-span data-index="5-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="Pricing" data-translation="Доставка" data-ch="0" data-type="trSpan">Доставка</ya-tr-span></a></li>
+      </ul>
+    </header>
+
+
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://tornado.shop/images/detailed/37/Common_Carp.jpg"  width="500" height="200">
+            <div class="card-body">
+              <p class="card-text"><ya-tr-span data-index="6-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="This is a wider card with supporting text below as a natural lead-in to additional content. " data-translation="Это более широкая карточка со вспомогательным текстом ниже, который естественным образом ведет к дополнительному контенту. " data-ch="0" data-type="trSpan">Карп </ya-tr-span><ya-tr-span data-index="6-1" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="This content is a little bit longer." data-translation="Этот контент немного длиннее." data-ch="0" data-type="trSpan"></ya-tr-span></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" ><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary"><ya-tr-span data-index="8-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="9 mins" data-translation="9 минут" data-ch="0" data-type="trSpan">Цена:?</ya-tr-span></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://proprikol.ru/wp-content/uploads/2020/10/kartinki-okun-32.jpg"  width="500" height="200">
+            <div class="card-body">
+              <p class="card-text">Окунь</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" ><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+                </div>
+                <small class="text-body-secondary">Цена:?</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://новая-рыбалка.рф/wp-content/uploads/2022/06/карась-1.png"  width="500" height="200">
+            <div class="card-body">
+              <p class="card-text">Карась</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-outline-secondary" ><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary">Цена:?</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+             <img class="d-block mx-auto mb-4" src="https://kartinki.pics/uploads/posts/2022-05/1652215181_29-kartinkin-net-p-kartinki-shchuka-riba-30.jpg"  width="500" height="200">
+            <div class="card-body">
+              <p class="card-text"><ya-tr-span data-index="9-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="This is a wider card with supporting text below as a natural lead-in to additional content. " data-translation="Это более широкая карточка со вспомогательным текстом ниже, который естественным образом ведет к дополнительному контенту. " data-ch="0" data-type="trSpan">Щука </ya-tr-span><ya-tr-span data-index="9-1" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="This content is a little bit longer." data-translation="Этот контент немного длиннее." data-ch="0" data-type="trSpan"></ya-tr-span></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" ><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary"><ya-tr-span data-index="11-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="9 mins" data-translation="9 минут" data-ch="0" data-type="trSpan">Цена:?</ya-tr-span></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://fishinhome.ru/upload/iblock/fe8/fe86de42ad8157e7c5c0afe2145fe648.jpg"  width="500" height="200">
+            <div class="card-body">
+              <p class="card-text">Сёмга</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-outline-secondary" ><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary">Цена:?</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://rossaprimavera.ru/static/files/0703446f7c2a.jpg"  width="500" height="200">
+            <div class="card-body">
+              <p class="card-text">Лосось</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-outline-secondary" ><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary">Цена:?</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://klev26.ru/wp-content/uploads/2/6/1/26148f8952e1d1a847b6222701bad8a1.jpeg" width="500" height="200">
+            <div class="card-body">
+              <p class="card-text">Форель</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-outline-secondary"><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary">Цена:?</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://dic.academic.ru/pictures/wiki/files/76/Leuciscus_idus.jpg" width="500" height="200">
+            <div class="card-body">
+              <p class="card-text">Язь</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                   <button type="button" class="btn btn-sm btn-outline-secondary" ><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary">Цена:?</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="d-block mx-auto mb-4" src="https://chudo-prirody.com/uploads/posts/2021-08/1628428214_119-p-tunets-riba-zhivaya-foto-127.jpg" width="500" height="200">
+            <div class="card-body">
+              <p class="card-text">Тунец</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="/bays" class="nav-link"><ya-tr-span data-index="7-0" data-translated="true" data-source-lang="en" data-target-lang="ru" data-value="View" data-translation="Купить" data-ch="0" data-type="trSpan">Купить</ya-tr-span> </button>
+
+                </div>
+                <small class="text-body-secondary">Цена:?</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
